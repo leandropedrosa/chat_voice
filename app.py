@@ -51,7 +51,7 @@ def main(answer_mode: str):
     def initialize_session_state():
         if "messages" not in st.session_state:
             st.session_state.messages = [
-                {"role": "assistant", "content": "Olá vamos conversar sobre o livro o hobbit e outras coisas mais?"}
+                {"role": "assistant", "content": "Olá vamos conversar?"}
             ]
 
     initialize_session_state()  # Move this to ensure session_state is initialized early
