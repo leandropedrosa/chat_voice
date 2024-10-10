@@ -1,5 +1,3 @@
-Aqui está o README atualizado com a instrução adicional:
-
 # Chatbot de Voz Conversacional OpenAI
 
 Este projeto é um chatbot com memória utilizando *Retrieval-Augmented Generation* (RAG) e integração de voz a partir de vídeos do YouTube, sendo apresentado no evento Conecta CEIA. Ele utiliza ferramentas avançadas de *speech-to-text* (STT) e *text-to-speech* (TTS), oferecendo uma experiência de interação por voz.
