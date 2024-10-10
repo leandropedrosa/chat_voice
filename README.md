@@ -1,4 +1,4 @@
-Aqui está o README ajustado para o seu projeto:
+Aqui está o README atualizado com a instrução adicional:
 
 # Chatbot de Voz Conversacional OpenAI
 
@@ -25,7 +25,31 @@ Este projeto é um chatbot com memória utilizando *Retrieval-Augmented Generati
 ## Pré-requisitos:
 - **Python 3.11** ou superior.
 - Conta OpenAI com chave de API válida.
-  
+
+### Atualização e Instalação de `youtube-dl` e `ffmpeg`:
+
+1. **Certifique-se de ter a versão mais recente do youtube-dl**:
+   ```bash
+   sudo youtube-dl -U
+   ```
+
+2. **Instale o ffmpeg** (necessário para processamento de mídia):
+
+   - **Ubuntu e Debian**:
+     ```bash
+     sudo apt-get install ffmpeg
+     ```
+
+   - **macOS**:
+     ```bash
+     brew install ffmpeg
+     ```
+
+   - **Windows**:
+     ```bash
+     choco install ffmpeg
+     ```
+
 ### Instalação sem Docker:
 
 1. **Crie um ambiente virtual e instale as dependências:**
